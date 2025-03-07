@@ -14,11 +14,11 @@ void add(){
 void view(){
 
 }
-
-void main () {
+// profe con el tipod void lo probre y no funciona tiene que estar con int
+int main () {
     int opc = 0;
     do {    
-        cout<<"1. Adicionar Nodo"<<endl<<"2. Ver Nodos"<<"3. Salir";
+        cout<<"1. Adicionar Nodo\n"<<endl<<"2. Ver Nodos\n"<<"3. Salir: ";
         cin>>opc;
         switch (opc)
         {
